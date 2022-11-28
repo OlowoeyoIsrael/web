@@ -2652,7 +2652,7 @@ text-align: center;
 
   .fa {
     position: relative;
-    left: 47.5%;
+    left: 48.5%;
     top: -1rem;
     margin-top: 6%;
     width: 25px;
@@ -2940,7 +2940,7 @@ text-align: center;
 
   .prospect {
       margin-top: 1rem;
-      margin-left: 0.4rem;
+      margin-left: -1Px;
       width: fit-content;
   }
 
@@ -3597,7 +3597,7 @@ text-align: center;
 
   .fa {
     position: relative;
-    left:7.5rem;
+    left: 8.5rem;
     top: 0;
     margin-top: 6%;
     width: 22px;
@@ -3726,7 +3726,7 @@ text-align: center;
 
 .prospect {
     margin-top: 1rem;
-    margin-left: -3px;
+    margin-left: -1px;
     width: fit-content;
 }
 
