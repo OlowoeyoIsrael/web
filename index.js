@@ -1,6 +1,3 @@
-$("body").on ("mouseover", function(){
-  $(".visisonwriteuppara").animate({marginLeft: "2px"});
-});
 
 var next = document.getElementById("next");
 
