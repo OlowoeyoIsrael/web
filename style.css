@@ -1,0 +1,4013 @@
+
+body {
+  background-color: aliceblue;
+  margin: 0px;
+}
+
+
+
+@media only screen and (max-width: 2560px){
+  .fa {
+      position: relative;
+      left: 97.5rem;
+      top: -40rem;
+      margin-top: 6%;
+      width: 60px;
+      font-size: 60px;
+      text-decoration: none;
+      color: white;
+      background-color: deepskyblue;
+      padding: 3px;
+      border-radius: 5px;
+      margin-left: 40px;
+      text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+  .profilediv {
+      display: inline-block;
+      width: fit-content;
+      position: relative;
+      left: -7rem;
+      top: 19rem;
+      margin: 2%;
+      border-bottom: solid 100px gold;
+      border-radius: 18%;
+      z-index: -10;
+  }
+
+  .profilepics {
+      width: 50rem;
+      height: 50rem;
+      border-radius: 10%;
+  }
+
+  .contact {
+      display: inline-block;
+      position: relative;
+      left: -20rem;
+      top: -40rem;
+    }
+
+  .contactrow {
+    display: inline-block;
+    color: deepskyblue;
+    font-size: 30px;
+    font-weight: 700;
+    z-index: 100;
+    }
+
+    #suitcase{
+      position: static;
+  width: 20px;
+  font-size: 20px;
+  color: #041562;
+  background-color: aliceblue;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 15px;
+  text-align: center;
+    }
+
+  #envelope {
+    position: static;
+width: 20px;
+font-size: 20px;
+color: #041562;
+background-color: aliceblue;
+padding: 3px;
+border-radius: 5px;
+margin-left: 15px;
+text-align: center;
+  }
+
+  #phone {
+    position: static;
+width: 20px;
+font-size: 20px;
+color: #041562;
+background-color: aliceblue;
+padding: 3px;
+border-radius: 5px;
+margin-left: 15px;
+text-align: center;
+  }
+
+#language {
+  position: static;
+width: 20px;
+font-size: 20px;
+color: #041562;
+background-color: aliceblue;
+padding: 3px;
+border-radius: 5px;
+margin-left: 15px;
+text-align: center;
+}
+
+
+  .contactdata {
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  .description {
+    width: 23rem;
+    position: relative;
+    top: -45rem;
+    left: 13.5rem;
+    display: inline-block;
+}
+
+  .desintro {
+    width: 70rem;
+    height: 40px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+
+  }
+
+  .waveemoji {
+      display: inline-block;
+      font-size: 55px;
+  }
+
+  .desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    }
+
+.deswordpara {
+  color: #1363DF;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 550;
+}
+
+  .deswords1 {
+      margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords2 {
+      margin-bottom: 20px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords3 {
+      margin-bottom: 30px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords4 {
+      margin-bottom: 20px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords5 {
+      margin-bottom: 20px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords6 {
+      margin-bottom: 30px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords7 {
+    margin-bottom: 30px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords8 {
+    margin-bottom: 25px;
+    margin-left: 15%;
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes typing {
+   from {width: 0}
+   to {width: 46rem;}
+  }
+
+  .favquote {
+    width: fit-content;
+    height: 8rem;
+    display: flex;
+    position: relative;
+    top: -15rem;
+    left: 98rem;
+}
+
+ .visionimg {
+    position: relative;
+    top: -55px;
+    margin-left: 3%;
+    border: solid 10px dodgerblue;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+  }
+
+  .talk-bubble {
+      margin: 10px;
+      display: inline-block;
+      position: relative;
+      top: 6rem;
+      left: 5rem;
+      width: 32rem;
+      height: 14rem;
+      background-color: aliceblue;
+      border: 8px solid dodgerblue;
+      border-radius: 15px;
+    }
+
+    .tri-right.angle::before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: -5rem;
+        right: auto;
+        top: -7px;
+        bottom: auto;
+        border: 40px solid;
+        border-color: dodgerblue dodgerblue transparent transparent;
+      }
+
+.tri-right2.angle2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -3.5rem;
+    right: auto;
+    top: 1px;
+    bottom: auto;
+    border: 30px solid;
+    border-color: aliceblue aliceblue transparent transparent;
+  }
+
+  .talktest {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .visionpara {
+      text-align: center;
+      color: gold;
+      font-family: cursive;
+      font-size: 32px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 40px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .prospect {
+      margin-top: -25.5rem;
+      margin-left: 13.5rem;
+      width: 45rem;
+  }
+
+  .visionwriteup {
+    margin: 3%;
+  }
+
+  .visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+
+    }
+
+  .visisonwriteuppara {
+      text-align: left;
+      color: dodgerblue;
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 50px;
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+  }
+
+  .aboutwork {
+    width: 100%;
+      background-color: dodgerblue;
+      height: 22rem;
+  }
+
+
+.prevworks {
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 40px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 15rem;
+}
+
+
+.workhead {
+  margin-left: 14rem;
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 60px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+
+}
+
+.workbody {
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  padding: 5px;
+  line-height: 40px;
+  width: 75%;
+  height: 100%;
+  margin-left: 14.5rem;
+  margin-bottom: 5px;
+}
+
+.worklink {
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.active{
+  color: gold;
+}
+
+#next {
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+    left: 90%;
+    top: 17rem;
+    color: gold;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+  #prev {
+    height: fit-content;
+      display: inline-block;
+      position: relative;
+      left: 12rem;
+      top: 10rem;
+      bottom: 61px;
+      color: gold;
+      font-size: 48px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+  }
+
+.switchindicators {
+  font-size: 40px;
+  color: aliceblue;
+    position: relative;
+    left: 42%;
+    top: 14rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+
+.work1 {
+  margin-left: 1rem;
+  position: absolute;
+}
+
+#number1 {
+  display: inline-block;
+}
+
+#number2 {
+  position: absolute;
+  display: none;
+}
+
+#number3 {
+  position: absolute;
+  display: none;
+
+}
+
+.thingyouwilllike {
+    width: 82.9%;
+    margin-left: 12.5rem;
+}
+
+
+.values{
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 40px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.dropdownone {
+  margin-top: 10px;
+    border: solid;
+    border-radius: 5px 5px 0 0;
+    border-width: 4px;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.dropwrite{
+  display: inline-block;
+  text-align: left;
+  color: #041562;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.dropbody1, .dropbody2, .dropbody3{
+  margin-top: -1.2rem;
+  border-color: dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.droppara {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 30px;
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.commentimg {
+    margin-left: 45vw;
+    border: solid 10px gold;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.commentwrite {
+  width: min-content;
+  overflow: inherit;
+  color: #041562;
+  margin-left: 35vw;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  line-height: 32px;
+  letter-spacing: 4px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+.comentname {
+    width: fit-content;
+    margin-left: 42.5vw;
+    margin-top: 10px;
+    text-align: center;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.lastcard {
+    margin-top: 10rem;
+    margin-left: 10.4%;
+    height: 33rem;
+    width: 80%;
+    text-align: center;
+    background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -6rem;
+  border: solid 10px gold;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 10px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+  }
+
+.divbordercolor {
+    position: relative;
+    left: 0.6rem;
+    bottom: -20.5px;
+    border-left: solid gold 10px;
+    border-right: solid dodgerblue 10px;
+    display: inline-block;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 5rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1440px){
+
+  .fa {
+      position: relative;
+      left: 64.9%;
+      top: -1rem;
+      margin-top: 6%;
+      width: 45px;
+      font-size: 30px;
+      text-decoration: none;
+      color: aliceblue;
+      background-color: deepskyblue;
+      padding: 3px;
+      border-radius: 5px;
+      margin-left: 15px;
+      text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+
+  .profilediv {
+      display: inline-block;
+      width: fit-content;
+      position: relative;
+      left: 64%;
+      top: -2rem;
+      margin: 2%;
+      border-bottom: solid 30px gold;
+      border-radius: 18%;
+      z-index: -10;
+  }
+
+  .profilepics {
+      width: 25rem;
+      height: 25rem;
+      border-radius: 10%;
+  }
+
+  .contact {
+      display: inline-block;
+      position: relative;
+      left: -17rem;
+      top: -1rem;
+    }
+
+  .contactrow {
+    display: inline-block;
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 100;
+}
+
+  .contactdata {
+    padding: 0;
+    padding-right: 30px;
+  }
+
+  .description {
+    width: 23rem;
+    position: relative;
+    top: -8rem;
+    left: -27.5%;
+    display: inline-block;
+  }
+
+  .desintro {
+    width: 40rem;
+    height: 40px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+
+  }
+
+  .waveemoji {
+      display: inline-block;
+      font-size: 30px;
+  }
+
+  .desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.deswordpara {
+  color: #1363DF;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 550;
+}
+
+.deswords1 {
+  margin-bottom: 0;
+  margin-top: 30px;
+  margin-left: 15%;
+  width: 0;
+  height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords2 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords3 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords4 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords5 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords6 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords7 {
+    margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords8 {
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes typing {
+   from {width: 0}
+   to {width: 23rem;}
+ }
+
+ .favquote {
+     width: fit-content;
+     height: 8rem;
+     display: inline;
+     position: relative;
+     top: 23rem;
+     left: -1rem;
+   }
+
+ .visionimg {
+  position: relative;
+  top: -65px;
+  margin-left: 3%;
+  border: solid 5px dodgerblue;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+
+}
+
+.talk-bubble {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+  left: 7px;
+  width: 16rem;
+  height: 7rem;
+  background-color: aliceblue;
+  border: 4px solid dodgerblue;
+  border-radius: 15px;
+}
+
+
+  .tri-right.angle::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -23px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: dodgerblue dodgerblue transparent transparent;
+  }
+
+  .tri-right2.angle2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -10px;
+    right: auto;
+    top: 35px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: aliceblue aliceblue transparent transparent;
+}
+
+  .talktest {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .visionpara {
+    text-align: center;
+      color: gold;
+      font-family: cursive;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 20px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .prospect {
+      margin-top: -4rem;
+      margin-left: 4.5rem;
+      width: 45rem;
+  }
+
+  .visionwriteup {
+    margin: 3%;
+  }
+
+  .visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+
+}
+
+  .visisonwriteuppara {
+      text-align: left;
+      color: dodgerblue;
+      font-family: sans-serif;
+      font-size: 17px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 25px;
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+  }
+
+  .aboutwork {
+    width: 100%;
+      background-color: dodgerblue;
+      height: 13rem;
+  }
+
+
+.prevworks {
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 5.8rem;
+}
+
+
+.workhead {
+  margin-left: 2%;
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 30px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+
+}
+
+.workbody {
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  padding: 5px;
+  line-height: 25px;
+  width: 75%;
+  height: 100%;
+  margin-left: 3%;
+  margin-bottom: 5px;
+}
+
+.worklink {
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  text-decoration: none;
+}
+.active{
+  color: gold;
+}
+
+#next {
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+    left: 88.3%;
+    top: 10rem;
+    color: gold;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+  #prev {
+    height: fit-content;
+      display: inline-block;
+      position: relative;
+      left: 7%;
+      top: 6.2rem;
+      bottom: 61px;
+      color: gold;
+      font-size: 30px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+  }
+
+.switchindicators {
+  font-size: 20px;
+  color: aliceblue;
+    position: relative;
+    left: 38rem;
+    top: 8.5rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+
+.work1 {
+  margin-left: 4.4rem;
+  position: absolute;
+}
+
+#number1 {
+  display: inline-block;
+}
+
+#number2 {
+  position: absolute;
+  display: none;
+}
+
+#number3 {
+  position: absolute;
+  display: none;
+
+}
+
+.thingyouwilllike {
+    width: 82.9%;
+    margin-left: 6.2rem;
+}
+
+
+.values{
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 20px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.dropdownone {
+  margin-top: 10px;
+    border: solid;
+    border-radius: 5px 5px 0 0;
+    border-width: 2px;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.dropwrite{
+  display: inline-block;
+  text-align: left;
+  color: #041562;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.dropbody1, .dropbody2, .dropbody3{
+  margin-top: -1.2rem;
+  border-color: dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.droppara {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.commentimg {
+    margin-left: 45vw;
+    border: solid 5px gold;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+
+.commentwrite {
+  width: 23rem;
+  overflow: inherit;
+  color: #041562;
+  margin-left: 37vw;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 550;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+
+.comentname {
+    width: fit-content;
+    margin-left: 43vw;
+    margin-top: 10px;
+    text-align: center;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.lastcard {
+    margin-top: 5rem;
+    margin-left: 10.4%;
+    height: 20rem;
+    width: 79.5%;
+    text-align: center;
+    background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  left: 1.5rem;
+  border: solid 5px gold;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.divbordercolor {
+    position: relative;
+    left: 0.6rem;
+    bottom: -20.5px;
+    border-left: solid gold 5px;
+    border-right: solid dodgerblue 5px;
+    display: inline-block;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+}
+
+
+@media only screen and (max-width: 1024px){
+  .fa {
+      position: relative;
+      left: 41.5rem;
+      top: -1rem;
+      margin-top: 6%;
+      width: 30px;
+      font-size: 25px;
+      text-decoration: none;
+      color: white;
+      background-color: deepskyblue;
+      padding: 3px;
+      border-radius: 5px;
+      margin-left: 15px;
+      text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+  .profilediv {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    left: 41.2rem;
+    top: -1rem;
+    margin: 2%;
+    border-bottom: solid 30px gold;
+    border-radius: 18%;
+    z-index: -10;
+  }
+
+  .profilepics {
+      width: 20rem;
+      height: 20rem;
+      border-radius: 10%;
+  }
+
+  .contact {
+      display: inline-block;
+      position: relative;
+      left: -17rem;
+      top: -0.7rem;
+  }
+
+  .contactrow {
+    display: inline-block;
+    color: deepskyblue;
+    font-size: 13px;
+    font-weight: 700;
+    z-index: 100;
+    }
+
+  .contactdata {
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  .description {
+      width: 23rem;
+      position: relative;
+      top: -3rem;
+      left: -21.8rem;
+      display: inline-block;
+  }
+
+  .desintro {
+    width: 40rem;
+    height: 40px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+
+  }
+
+  .waveemoji {
+      display: inline-block;
+      font-size: 25px;
+  }
+
+  .desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    }
+
+  .deswordpara {
+  color: #1363DF;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 550;
+}
+
+  .deswords1 {
+      margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords2 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords3 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords4 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords5 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords6 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords7 {
+    margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords8 {
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes typing {
+   from {width: 0}
+   to {width: 23rem;}
+  }
+
+ .favquote {
+     width: fit-content;
+     height: 8rem;
+     display: flex;
+     position: relative;
+     top: 2rem;
+     left: 35rem;
+ }
+
+ .visionimg {
+     position: relative;
+     top: -55px;
+     margin-left: 3%;
+     border: solid 5px dodgerblue;
+     width: 7rem;
+     height: 7rem;
+     border-radius: 100%;
+   }
+
+.talk-bubble {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+  left: 7px;
+  width: 16rem;
+  height: 7rem;
+  background-color: aliceblue;
+  border: 4px solid dodgerblue;
+  border-radius: 15px;
+}
+
+
+  .tri-right.angle::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -23px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: dodgerblue dodgerblue transparent transparent;
+  }
+
+  .tri-right2.angle2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -10px;
+    right: auto;
+    top: 35px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: aliceblue aliceblue transparent transparent;
+}
+
+  .talktest {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .visionpara {
+      text-align: center;
+      color: gold;
+      font-family: cursive;
+      font-size: 13px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 20px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .prospect {
+      margin-top: -13rem;
+      margin-left: -0.2rem;
+      width: 45rem;
+    }
+
+  .visionwriteup {
+    margin: 3%;
+  }
+
+  .visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+
+    }
+
+  .visisonwriteuppara {
+      text-align: left;
+      color: dodgerblue;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 25px;
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+  }
+
+  .aboutwork {
+    width: 100%;
+      background-color: dodgerblue;
+      height: 11rem;
+  }
+
+
+.prevworks {
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 1.3rem;
+}
+
+
+.workhead {
+  margin-left: 1.6%;
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 30px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+
+}
+
+.workbody {
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 5px;
+  line-height: 25px;
+  width: 75%;
+  height: 100%;
+  margin-left: 2%;
+  margin-bottom: 5px;
+}
+
+.worklink {
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.active{
+  color: gold;
+}
+
+#next {
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+    left: 61.2rem;
+    top: 9rem;
+    color: gold;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+  #prev {
+    height: fit-content;
+      display: inline-block;
+      position: relative;
+      left: 1.2rem;
+      top: 5.5rem;
+      bottom: 61px;
+      color: gold;
+      font-size: 28px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+  }
+
+.switchindicators {
+  font-size: 18px;
+  color: aliceblue;
+    position: relative;
+    left: 27rem;
+    top: 7.5rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+
+.work1 {
+  margin-left: 1rem;
+  position: absolute;
+}
+
+#number1 {
+  display: inline-block;
+}
+
+#number2 {
+  position: absolute;
+  display: none;
+}
+
+#number3 {
+  position: absolute;
+  display: none;
+
+}
+
+.thingyouwilllike {
+    width: 82.9%;
+    margin-left: 5.9rem;
+}
+
+
+.values{
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 20px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.dropdownone {
+  margin-top: 10px;
+    border: solid;
+    border-radius: 5px 5px 0 0;
+    border-width: 2px;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.dropwrite{
+  display: inline-block;
+  text-align: left;
+  color: #041562;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+., .dropbody2, .dropbody3{
+  margin-top: -1.2rem;
+  border-color: dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.droppara {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.commentimg {
+    margin-left: 45vw;
+    border: solid 5px gold;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.commentwrite {
+  width: 23rem;
+  overflow: inherit;
+  color: #041562;
+  margin-left: 33vw;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+
+.comentname {
+    width: fit-content;
+    margin-left: 42vw;
+    margin-top: 10px;
+    text-align: center;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.lastcard {
+    margin-top: 5rem;
+    margin-left: 10.4%;
+    height: 20rem;
+    width: 80%;
+    text-align: center;
+    background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  border: solid 5px gold;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+  }
+
+.divbordercolor {
+    position: relative;
+    left: 0.6rem;
+    bottom: -20.5px;
+    border-left: solid gold 5px;
+    border-right: solid dodgerblue 5px;
+    display: inline-block;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+  .fa {
+      position: relative;
+      left: 27rem;
+      top: -2rem;
+      margin-top: 6%;
+      width: 30px;
+      font-size: 25px;
+      text-decoration: none;
+      color: white;
+      background-color: deepskyblue;
+      padding: 3px;
+      border-radius: 5px;
+      margin-left: 15px;
+      text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+  .profilediv {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    left: 27rem;
+    top: -1rem;
+    margin: 2%;
+    border-bottom: solid 30px gold;
+    border-radius: 18%;
+    z-index: -10;
+  }
+
+  .profilepics {
+      width: 18rem;
+      height: 18rem;
+      border-radius: 10%;
+  }
+
+  .contact {
+      display: inline-block;
+      position: relative;
+      left: -17.5rem;
+      top: 1rem;
+      width: 30rem;
+  }
+
+  .contactrow {
+    display: inline-block;
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 100;
+    letter-spacing: 1px;
+  }
+
+  .contactdata {
+    padding: 0;
+    padding-right: 15px;
+    padding-top: 8px;
+  }
+
+  .description {
+    width: 23rem;
+    position: relative;
+    top: -0.4rem;
+    left: -19.5rem;
+    display: inline-block;
+  }
+
+  .desintro {
+    width: 40rem;
+    height: 40px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+
+  }
+
+  .waveemoji {
+      display: inline-block;
+      font-size: 22px;
+  }
+
+  .desintrowriteup {
+    margin-left: 0;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    }
+
+  .deswordpara {
+  color: #1363DF;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 550;
+}
+
+  .deswords1 {
+      margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords2 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords3 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords4 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords5 {
+      margin-bottom: 0;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords6 {
+      margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords7 {
+    margin-bottom: 10px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords8 {
+    margin-bottom: 5px;
+    margin-left: 15%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes typing {
+   from {width: 0}
+   to {width: 23rem;}
+  }
+
+  .favquote {
+     width: fit-content;
+     height: 8rem;
+     display: flex;
+     position: relative;
+     top: 1rem;
+     left: 1rem;
+ }
+
+ .visionimg {
+     position: relative;
+     top: -55px;
+     margin-left: 3%;
+     border: solid 5px dodgerblue;
+     width: 7rem;
+     height: 7rem;
+     border-radius: 100%;
+   }
+
+  .talk-bubble {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+  left: 7px;
+  width: 16rem;
+  height: 7rem;
+  background-color: aliceblue;
+  border: 4px solid dodgerblue;
+  border-radius: 15px;
+}
+
+  .tri-right.angle::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -23px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: dodgerblue dodgerblue transparent transparent;
+  }
+
+  .tri-right2.angle2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -10px;
+    right: auto;
+    top: 35px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: aliceblue aliceblue transparent transparent;
+  }
+
+  .talktest {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .visionpara {
+      text-align: center;
+      color: gold;
+      font-family: cursive;
+      font-size: 13px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 20px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .prospect {
+      margin-top: 1rem;
+      margin-left: 0.4rem;
+      width: 45rem;
+  }
+
+  .visionwriteup {
+    margin: 3%;
+  }
+
+  .visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+
+    }
+
+  .visisonwriteuppara {
+      text-align: left;
+      color: dodgerblue;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 25px;
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+      letter-spacing: 1px;
+  }
+
+  .aboutwork {
+    width: 100%;
+      background-color: dodgerblue;
+      height: 13rem;
+  }
+
+
+.prevworks {
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 1.6rem;
+}
+
+
+.workhead {
+  margin-left: 1.8%;
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 30px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+
+}
+
+.workbody {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: fit-content;
+    height: 100%;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
+.worklink {
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.active{
+  color: gold;
+}
+
+#next {
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+    left: 45rem;
+    top: 11rem;
+    color: gold;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+#prev {
+    height: fit-content;
+      display: inline-block;
+      position: relative;
+      left: 2rem;
+      top: 7.5rem;
+      bottom: 61px;
+      color: gold;
+      font-size: 28px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+  }
+
+.switchindicators {
+  font-size: 16px;
+  display: table-cell;
+  color: aliceblue;
+    position: relative;
+    left: 20rem;
+    top: 9.5rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+
+.work1 {
+  margin-left: 0;
+  position: absolute;
+}
+
+#number1 {
+  display: inline-block;
+}
+
+#number2 {
+  position: absolute;
+  display: none;
+}
+
+#number3 {
+  position: absolute;
+  display: none;
+
+}
+
+.thingyouwilllike {
+    width: 90%;
+    margin-left: 2.5rem;
+}
+
+
+.values{
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 20px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.dropdownone {
+  margin-top: 10px;
+    border: solid;
+    border-radius: 5px 5px 0 0;
+    border-width: 2px;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.dropwrite{
+  display: inline-block;
+  text-align: left;
+  color: #041562;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.dropbody1, .dropbody2, .dropbody3{
+  margin-top: -1.2rem;
+  border-color: dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.droppara {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.commentimg {
+    margin-left: 20rem;
+    border: solid 5px gold;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.commentwrite {
+  width: 23rem;
+  overflow: inherit;
+  color: #041562;
+  margin-left: 12.5rem;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+
+.comentname {
+    width: fit-content;
+    margin-left: 18rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.lastcard {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 80%;
+    text-align: center;
+    background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  left: -0.5rem;
+  border: solid 5px gold;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    margin-left
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    margin-left
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: -0.5rem;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.divbordercolor {
+    position: relative;
+    left: 0.6rem;
+    bottom: -20.5px;
+    border-left: solid gold 5px;
+    border-right: solid dodgerblue 5px;
+    display: inline-block;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+
+  .fa {
+    position: relative;
+    left: 47.5%;
+    top: -1rem;
+    margin-top: 6%;
+    width: 25px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+
+  .profilediv {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    left: 47%;
+    top: -8rem;
+    margin: 2%;
+    border-bottom: solid 15px gold;
+    border-radius: 18%;
+    z-index: -10;
+  }
+
+  .profilepics {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10%;
+}
+
+
+  .contact {
+    display: inline-block;
+    position: relative;
+    left: -0.1rem;
+    top: -3rem;
+    width: fit-content;
+}
+
+  .contactrow {
+    display: block;
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 100;
+    margin-top: -15px;
+}
+
+  .contactdata {
+    padding: 4px;
+  }
+
+  .description {
+    width: 23rem;
+    position: relative;
+    top: -7rem;
+    left: 4%;
+    display: inline-block;
+}
+
+  .desintro {
+    height: 40px;
+    margin-left: 1%;
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  .waveemoji {
+    margin-left: 1%;
+      display: inline-block;
+      font-size: 20px;
+  }
+
+  .desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.deswordpara {
+  margin-left: 2%;
+  color: #1363DF;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 550;
+}
+
+  .deswords1 {
+      margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords2 {
+      margin-bottom: 0;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords3 {
+      margin-bottom: 10px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords4 {
+      margin-bottom: 0;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords5 {
+      margin-bottom: 0;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords6 {
+      margin-bottom: 10px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords7 {
+    margin-bottom: 10px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  .deswords8 {
+    margin-bottom: 5px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+  }
+
+  @keyframes typing {
+   from {width: 0}
+   to {width: 23rem;}
+ }
+
+ .favquote {
+     width: fit-content;
+     height: 8rem;
+     display: flex;
+     position: relative;
+     top: -1rem;
+     left: 1rem;
+ }
+
+.visionimg {
+  position: relative;
+  top: -65px;
+  margin-left: 3%;
+  border: solid 5px dodgerblue;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+
+}
+
+.talk-bubble {
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+  left: 7px;
+  width: 14rem;
+  height: 7rem;
+  background-color: aliceblue;
+  border: 4px solid dodgerblue;
+  border-radius: 15px;
+}
+
+
+  .tri-right.angle::before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -23px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: dodgerblue dodgerblue transparent transparent;
+  }
+
+  .tri-right2.angle2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -10px;
+    right: auto;
+    top: 35px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: aliceblue aliceblue transparent transparent;
+  }
+
+  .talktest {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .visionpara {
+    text-align: center;
+      color: gold;
+      font-family: cursive;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 20px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .prospect {
+      margin-top: 1rem;
+      margin-left: 0.4rem;
+      width: fit-content;
+  }
+
+  .visionwriteup {
+    margin: 3%;
+  }
+
+  .visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+
+}
+
+  .visisonwriteuppara {
+      text-align: left;
+      color: dodgerblue;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 25px;
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+  }
+
+.aboutwork {
+  background-color: dodgerblue;
+  height: 18rem;
+  width: 100%;
+}
+
+.workhead {
+  margin-left: 2%;
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 30px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+
+}
+
+.workbody {
+  text-align: left;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 5px;
+  line-height: 25px;
+  width: 95%;
+  height: 100%;
+  margin-left: 3%;
+  margin-bottom: 5px;
+}
+
+.worklink {
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.active{
+  color: gold;
+}
+#next {
+  display: inline-block;
+  height: fit-content;
+  position: relative;
+  left: 24rem;
+  top: 15.2rem;
+  color: gold;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+}
+
+  #prev {
+    height: fit-content;
+      display: inline-block;
+      position: relative;
+      right: 0;
+      top: 12rem;
+      bottom: 61px;
+      color: gold;
+      font-size: 25px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+  }
+
+.switchindicators {
+  display: table-cell;
+  color: aliceblue;
+    position: relative;
+    left: 9.4rem;
+    top: 14rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+
+.work1 {
+  position: absolute;
+  left: 0;
+}
+
+#number1 {
+  display: inline-block;
+}
+
+#number2 {
+  position: absolute;
+  display: none;
+}
+
+#number3 {
+  position: absolute;
+  display: none;
+
+}
+
+.prevworks{
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .thingyouwilllike {
+      width: 100%;
+      margin-left: 0;
+  }
+
+.values{
+  text-align: left;
+  color: gold;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 5px;
+  line-height: 20px;
+  width: fit-content;
+  height: 100%;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dropdownone {
+  margin-top: 10px;
+    border: solid;
+    border-radius: 5px 5px 0 0;
+    border-width: 2px;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.dropwrite{
+  display: inline-block;
+  text-align: left;
+  color: #041562;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 17rem;
+}
+
+.dropbody1, .dropbody2, .dropbody3{
+  margin-top: -1.2rem;
+  border-color: dodgerblue;
+  background-color: dodgerblue;
+  border-radius: 0 0 5px 5px;
+  display: none;
+}
+
+.droppara {
+    text-align: left;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.commentimg {
+    margin-left: 41vw;
+    border: solid 5px gold;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.commentwrite {
+    width: 20rem;
+    line-break: anywhere;
+    overflow: inherit;
+    color: #041562;
+    margin-left: 15vw;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+
+.comentname {
+    margin-left: 32vw;
+    margin-top: 10px;
+    text-align: center;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.lastcard {
+  margin-top: 5rem;
+  margin-left: 12%;
+  height: 19rem;
+  width: 80%;
+  text-align: center;
+  background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  left: 0.5rem;
+  border: solid 5px gold;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    margin-left: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.divbordercolor {
+    position: relative;
+    left: 0;
+    bottom: -20.5px;
+    border-left: solid gold 4px;
+    border-right: solid dodgerblue 4px;
+    display: inline-block;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+
+}
+}
+
+
+@media only screen and (max-width: 375px){
+
+  .fa {
+    position: relative;
+    left: 10rem;
+    top: -1rem;
+    margin-top: 6%;
+    width: 25px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+
+  .profilediv {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    left: 10rem;
+    top: -8rem;
+    margin: 2%;
+    margin-right: 0;
+    border-bottom: solid 15px gold;
+    border-radius: 18%;
+    z-index: -10;
+  }
+
+  .profilepics {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10%;
+}
+
+.contact {
+    display: inline-block;
+    position: relative;
+    left: -0.5rem;
+    top: -3rem;
+    width: fit-content;
+}
+
+.description {
+  width: 100%;
+}
+
+.desintro {
+    display: inline;
+    height: 40px;
+    margin-left: 1%;
+    width: fit-content;
+    margin-bottom: 1px;
+}
+
+.deswords1 {
+    margin-bottom: 0;
+    margin-top: -20px;
+    margin-left: 1%;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+
+@keyframes typing {
+ from {width: 0}
+ to {width: 21rem;}
+ }
+
+ .favquote {
+    width: fit-content;
+    height: 8rem;
+    display: inline-flex;
+    position: relative;
+    top: -1rem;
+    left: 2px;
+}
+
+.visionpara {
+    text-align: center;
+    color: gold;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: -0.3rem;
+    margin-left: -0.3rem;
+}
+
+.description {
+    width: 100%;
+    position: relative;
+    top: -7rem;
+    left: 0;
+    display: inline-block;
+}
+
+.switchindicators {
+    display: table-cell;
+    color: aliceblue;
+    position: relative;
+    left: 8rem;
+    top: 16rem;
+    bottom: 23px;
+    width: fit-content;
+}
+
+#prev {
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top: 14.2rem;
+    bottom: 61px;
+    color: gold;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+#next {
+  display: inline-block;
+  height: fit-content;
+  position: relative;
+  left: 90%;
+  top: 17.2rem;
+  color: gold;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+}
+
+.aboutwork {
+  background-color: dodgerblue;
+  height: 20rem;
+  width: 100%;
+}
+
+.talk-bubble {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: -1rem;
+    left: 1px;
+    width: 13rem;
+    height: 7rem;
+    background-color: aliceblue;
+    border: 4px solid dodgerblue;
+    border-radius: 15px;
+}
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.commentwrite {
+    width: 18rem;
+    line-break: anywhere;
+    overflow: inherit;
+    color: #041562;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.Nevcolor {
+  color: aliceblue;
+}
+
+
+.lastcard {
+  margin-top: 5rem;
+  margin-left: 12%;
+  height: 19rem;
+  width: 80%;
+  text-align: center;
+  background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  border: solid 5px gold;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.divbordercolor {
+    position: relative;
+    left: 0;
+    bottom: -20.5px;
+    border-left: solid gold 3px;
+    border-right: solid dodgerblue 3px;
+    display: inline-block;
+    top: -3px;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 320px){
+
+  .fa {
+    position: relative;
+    left: 7.5rem;
+    top: 0;
+    margin-top: 6%;
+    width: 22px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .fa:hover {
+    color: gold;
+  }
+
+  .contact {
+    display: inline-block;
+    position: relative;
+    left: -0.4rem;
+    top: -2rem;
+  }
+
+.contactrow {
+    display: block;
+    color: deepskyblue;
+    font-size: 13px;
+    font-weight: 700;
+    z-index: 100;
+  }
+
+
+  .profilepics {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10%;
+}
+
+.profilediv {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    left: 7.6rem;
+    top: -7rem;
+    margin: 2%;
+    margin-right: 0;
+    border-bottom: solid 15px gold;
+    border-radius: 18%;
+    z-index: -10;
+}
+
+.profilepics {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+  }
+
+.description {
+  width: 100%;
+}
+
+.desintro {
+    display: inline;
+    height: 40px;
+    margin-left: 1%;
+    width: fit-content;
+    margin-bottom: 1px;
+}
+
+.waveemoji {
+    margin-left: 1%;
+    display: inline-block;
+    font-size: 17px;
+  }
+
+.desintrowriteup {
+    margin-left: 1%;
+    display: inline-block;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.deswordpara {
+    margin-left: 2%;
+    color: #1363DF;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 550;
+  }
+
+@keyframes typing {
+ from {width: 0}
+ to {width: 19rem;}
+ }
+
+ .favquote {
+    width: fit-content;
+    height: 8rem;
+    display: inline-flex;
+    position: relative;
+    top: -1rem;
+    left: 0;
+  }
+
+.visionimg {
+    position: relative;
+    top: -65px;
+    margin-left: 3%;
+    border: solid 5px dodgerblue;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+
+.description {
+    width: 100%;
+    position: relative;
+    top: -7rem;
+    left: 0;
+    display: inline-block;
+}
+
+.prospect {
+    margin-top: 1rem;
+    margin-left: -3px;
+    width: fit-content;
+}
+
+.visionhead {
+    text-align: left;
+    color: #041562;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+.visisonwriteuppara {
+    text-align: left;
+    color: dodgerblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    width: 100%;
+    height: 100%;
+  }
+
+.prevworks {
+    text-align: left;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px;
+    line-height: 20px;
+    width: fit-content;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 6px;
+  }
+
+.workhead {
+      margin-left: 5px;
+      text-align: left;
+      color: aliceblue;
+      font-family: sans-serif;
+      font-size: 19px;
+      font-weight: 800;
+      padding: 5px;
+      line-height: 30px;
+      width: fit-content;
+      height: 100%;
+      margin-bottom: 0;
+  }
+
+.workbody {
+      text-align: left;
+      color: aliceblue;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 550;
+      padding: 5px;
+      line-height: 25px;
+      width: 95%;
+      height: 100%;
+      margin-left: 0;
+      margin-bottom: 5px;
+  }
+
+  .switchindicators {
+      display: table-cell;
+      color: aliceblue;
+      position: relative;
+      left: 6rem;
+      top: 17.5rem;
+      bottom: 23px;
+      width: fit-content;
+  }
+
+#next {
+  display: inline-block;
+  height: fit-content;
+  position: relative;
+  left: 90%;
+  top: 18.8rem;
+  color: gold;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+}
+
+#prev {
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+    left: 1rem;
+    top: 15.6rem;
+    bottom: 61px;
+    color: gold;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+.aboutwork {
+      background-color: dodgerblue;
+      height: 21rem;
+      width: 100%;
+  }
+
+.talk-bubble {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: -1rem;
+    left: 1px;
+    width: 12rem;
+    height: 7rem;
+    background-color: aliceblue;
+    border: 4px solid dodgerblue;
+    border-radius: 15px;
+  }
+
+.values {
+      text-align: left;
+      color: gold;
+      font-family: sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 5px;
+      line-height: 20px;
+      width: fit-content;
+      height: 100%;
+      margin-bottom: 0;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+
+.dropwrite {
+        display: inline-block;
+        text-align: left;
+        color: #041562;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 800;
+        padding: 5px;
+        margin-bottom: 0;
+        margin-left: 8px;
+    }
+
+.valuetoggler1, .valuetoggler2, .valuetoggler3  {
+    height: fit-content;
+    display: inline-block;
+    color: gold;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.commentimg {
+    margin-left: 35vw;
+    border: solid 5px gold;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    margin-top: 20px;
+  }
+
+.comentname {
+      margin-left: 26vw;
+      margin-top: 10px;
+      text-align: center;
+      color: #041562;
+      font-family: sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+.commentwrite {
+        width: 18rem;
+        line-break: anywhere;
+        overflow: inherit;
+        color: #041562;
+        margin-top: 10px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 25px;
+        letter-spacing: 2px;
+        margin-left: 20px;
+    }
+
+    .Nevcolor {
+      color: aliceblue;
+    }
+
+
+.lastcard {
+  margin-top: 5rem;
+  margin-left: 12%;
+  height: 18.7rem;
+  width: 80%;
+  text-align: center;
+  background-color: #041562;
+}
+
+.cardimg {
+  position: relative;
+  top: -3rem;
+  border: solid 5px gold;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+
+.cardwords {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cardwords1 {
+  margin-top: -25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.divbordercolor {
+    position: relative;
+    left: 0;
+    bottom: -20.5px;
+    border-left: solid gold 2px;
+    border-right: solid dodgerblue 2px;
+    display: inline-block;
+    top: 0.7rem;
+}
+
+.emptyspace {
+  margin-bottom: 0;
+}
+
+.foot {
+  background-color: dodgerblue;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.footwrite {
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    padding-top: 25px;
+    letter-spacing: 1px;
+
+}
+
+
+}
